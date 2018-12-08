@@ -10,8 +10,12 @@
     "128": "images/icon-128.png"
   },
   "background": {
-    "scripts": [
-      "scripts/background.js"
-    ]
-  }
+    "scripts": ["scripts/background.js"]
+  },
+  "permissions": [
+    "*://*.slack.com/*",
+    "*://chat.google.com/*",
+    "webRequest",
+    "webRequestBlocking"
+  ]
 }
